@@ -1,0 +1,22 @@
+.about {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    gap:2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.about_img img {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}

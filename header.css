@@ -1,0 +1,41 @@
+
+header {
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header  img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.header-text {
+    width: 100%;
+}
+
+.title-text {
+    color: #000;
+    text-align: justify;
+
+    /* Title */
+    font-family: Inter;
+    font-size: 41.632px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-action {
+    color: var(--Action-color, #B1F698);
+    font-family: Inter;
+    font-size: 41.632px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-shadow: #000;
+}

@@ -1,0 +1,13 @@
+<!-- HOTMART - Upsell Widget -->
+<div id="box_hotmart"></div>
+<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+
+<script>
+opts = {
+key: 'USL-123497-396211-cd21629397dbc0d732e5093d1b88e92e',
+width: '650' ,
+height: '420'
+};
+Upsell.Widget.show(opts);
+</script>
+<!-- HOTMART - Upsell Widget [end] -->
