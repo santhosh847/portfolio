@@ -13,7 +13,7 @@
     line-height: 170%; /* 27.2px */
 }
 
-.body {
+.container {
     width: 80%;
     min-height: 100vh;
     margin-left: auto;
@@ -61,3 +61,17 @@ border:none;
     height: 100%;
     object-fit: cover;
 }
+
+
+/* temporary styles */
+
+.alert {
+    background-color: palegoldenrod;
+    width: 100%;
+    position: absolute;
+    top:0;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* remove after finishing project */
